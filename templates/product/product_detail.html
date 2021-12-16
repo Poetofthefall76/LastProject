@@ -1,0 +1,20 @@
+{% extends 'product/origin.html' %}
+{% load static %}
+
+{% block title %}Detail{% endblock %}
+
+{% block content %}
+
+<div class="container">
+        <div class="detail">
+                <h2>{{ object.name }}</h2>
+                <p>{{ object.description }}</p>
+                <p>${{ object.price }}</p>
+                <p>{{ object.date_created }}</p>
+                <p>{{ object.tags }}</p>
+                        <br><br>
+                <a href="/add-order">Create</a>
+        </div>
+</div>
+
+{% endblock %}

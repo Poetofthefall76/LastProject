@@ -1,0 +1,17 @@
+{% extends 'product/origin.html' %}
+{% load static %}
+
+{% block title %}Product{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    {% for i in object_list %}
+        <div class="info">
+            <h2><a href="/{{ i.id }}/">{{ i.name }}</a></h2>
+            <p>{{ i.date_created }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

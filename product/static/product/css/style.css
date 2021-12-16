@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+.container {
+    margin-top: 60px;
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+.info h2 a {
+    text-decoration: none;
+    color: black;
+    transition: .2s linear;
+}
+.info h2 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.detail a {
+    text-decoration: none;
+    color: black;
+    transition: .2s linear;
+}
+.detail a:hover {
+    text-decoration: underline;
+    color: white;
+}
